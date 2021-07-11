@@ -1,0 +1,13 @@
+{
+  "name": "Multitran Search",
+  "description": "Provides you the ability to use multitran without visiting it's webpage",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service-worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
