@@ -6,8 +6,20 @@
   "background": {
     "service-worker": "background.js"
   },
-  "permissions": ["storage"],
+  "permissions": ["storage", "activeTab", "scripting"],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "",
+      "32": "",
+      "48": "",
+      "128": ""
+    }
+  },
+  "icons": {
+    "16": "",
+    "32": "",
+    "48": "",
+    "128": ""
   }
 }
